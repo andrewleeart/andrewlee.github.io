@@ -158,6 +158,13 @@ a:hover {
 
 /* PROJECT-RONIN.HTML */
 
+.back-link {
+  display: inline-block;
+  margin: 40px 0;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+}
+
 .project-hero {
   padding: 100px 0 40px 0;
 }
