@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Morga Morningstar – Character Design</title>
+
+<link rel="stylesheet" href="../style.css">
+
+</head>
+
+<body>
+
+<div class="project-container">
+
+<a href="../index.html" class="back-link">← Back to Portfolio</a>
+
+<h1 class="project-title">Morga Morningstar</h1>
+
+<div class="project-image">
+<img src="../images/morga-final.jpg" alt="Morga Character Design" loading="lazy">
+</div>
+
+<div class="project-description reveal">
+
+<h2 class="project-section">Concept</h2>
+
+<p>
+Morga Morningstar is a stylized goblin berserker designed for a fantasy
+action game environment. The character explores exaggerated proportions
+and strong silhouette readability to create a compact yet powerful
+playable character.
+</p>
+
+<p>
+The design focuses on personality-driven visual language, combining
+ferocity and mischievous charm. Her oversized bone mace acts as a key
+visual anchor, reinforcing her brutal combat style while adding organic
+shape contrast to her compact body structure.
+</p>
+
+</div>
+
+<h2 class="project-section reveal">Design Exploration</h2>
+
+<div class="project-image reveal">
+<img src="../images/morga-process.jpg">
+</div>
+
+<h2 class="project-section reveal">Color Exploration</h2>
+
+<div class="project-image reveal">
+<img src="../images/morga-colors.jpg" alt="Morga color exploration" loading="lazy">
+</div>
+
+<h2 class="project-section reveal">Character Sheet</h2>
+
+<div class="project-image reveal">
+<img src="../images/morga-sheet.jpg" alt="Morga character sheet" loading="lazy">
+</div>
+
+</div>
+
+<!-- REVEAL SCRIPT -->
+
+<script>
+const reveals = document.querySelectorAll('.reveal');
+
+function revealOnScroll(){
+  const windowHeight = window.innerHeight;
+
+  reveals.forEach(section => {
+    const sectionTop = section.getBoundingClientRect().top;
+
+    if(sectionTop < windowHeight - 100){
+      section.classList.add('visible');
+    }
+  });
+}
+
+window.addEventListener('scroll', revealOnScroll);
+revealOnScroll();
+</script>
+
+</body>
+</html>
