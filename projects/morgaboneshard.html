@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Morga Boneshard – Character Design</title>
+
+<link rel="stylesheet" href="../style.css">
+
+</head>
+
+<body>
+
+  <section class="hero">
+
+  <img src="../images/morga-final-3.jpg" alt="Hero artwork">
+
+    <div class="hero-header">
+      <h1 class="logo">MORGA BONESHARD</h1>
+      <p class="hero-subtitle">Character Design</p>
+    </div>
+
+  </section>
+
+<div class="project-container">
+
+<a href="../index.html" class="back-link">← Back to Portfolio</a>
+
+<div class="project-description reveal">
+
+<h2 class="project-section">Concept</h2>
+
+<p>
+Morga Boneshard is a stylized goblin berserker designed for a fantasy
+action game environment. The character explores exaggerated proportions
+and strong silhouette readability to create a compact yet powerful
+playable character.
+</p>
+
+<p>
+The design focuses on personality-driven visual language, combining
+ferocity and mischievous charm. Her oversized bone mace acts as a key
+visual anchor, reinforcing her brutal combat style while adding organic
+shape contrast to her compact body structure.
+</p>
+
+</div>
+
+<h2 class="project-section reveal">Design Exploration</h2>
+
+<div class="design-morga">
+<div class="project-morga reveal">
+<img src="../images/morga1.jpg">
+</div>
+
+<div class="project-morga reveal">
+<img src="../images/morga2.jpg">
+</div>
+
+<div class="project-morga reveal">
+<img src="../images/morga3.jpg" alt="Morga color exploration" loading="lazy">
+</div>
+</div>
+
+<div class="design-morga">
+  <div class="project-morga reveal">
+    <img src="../images/morga4.jpg">
+  </div>
+</div>
+
+<div class="design-morga">
+  <div class="project-morga reveal">
+    <img src="../images/morga5.jpg">
+  </div>
+</div>
+
+<div class="design-morga">
+  <div class="project-morga reveal">
+    <img src="../images/morga6.jpg">
+  </div>
+
+  <div class="project-morga reveal">
+    <img src="../images/morga7.jpg">
+  </div>
+
+  <div class="project-morga reveal">
+    <img src="../images/morga8.jpg">
+  </div>
+</div>
+
+<div class="design-morga">
+  <div class="project-morga reveal">
+    <img src="../images/morga9.jpg">
+  </div>
+</div>
+
+<div class="design-morga">
+  <div class="project-morga reveal">
+    <img src="../images/morga-process.jpg">
+  </div>
+  <div class="project-morga reveal">
+    <img src="../images/morga-sheet.jpg">
+  </div>
+</div>
+
+
+<h2 class="project-section-morga reveal">Color Exploration</h2>
+
+<div class="design-morga">
+  <div class="project-morga reveal">
+    <img src="../images/morga10.jpg">
+  </div>
+
+  <div class="project-morga reveal">
+    <img src="../images/morga14.jpg">
+  </div>
+</div>
+
+<div class="design-morga-2">
+  <div class="project-morga reveal">
+    <img src="../images/morga11.jpg">
+  </div>
+
+  <div class="project-morga reveal">
+    <img src="../images/morga12.jpg">
+  </div>
+
+  <div class="project-morga reveal">
+    <img src="../images/morga13.jpg">
+  </div>
+</div>
+
+<!-- REVEAL SCRIPT -->
+
+<script>
+const reveals = document.querySelectorAll('.reveal');
+
+function revealOnScroll(){
+  const windowHeight = window.innerHeight;
+
+  reveals.forEach(section => {
+    const sectionTop = section.getBoundingClientRect().top;
+
+    if(sectionTop < windowHeight - 100){
+      section.classList.add('visible');
+    }
+  });
+}
+
+window.addEventListener('scroll', revealOnScroll);
+revealOnScroll();
+</script>
+
+</body>
+</html>
