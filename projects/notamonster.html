@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NOT A MONSTER – Character Design</title>
+
+<link rel="stylesheet" href="../style.css">
+
+</head>
+
+<body>
+
+      <!-- HERO -->
+    <section class="hero">
+
+  <img src="../images/ronin-final.jpg" alt="Hero artwork">
+
+    <div class="hero-header">
+      <h1 class="logo">NOT A MONSTER</h1>
+      <p class="hero-subtitle">World Building Concept</p>
+    </div>
+
+  </section>
+
+<div class="project-container">
+
+<a href="../index.html" class="back-link">← Back to Portfolio</a>
+
+<div class="project-description reveal">
+
+<p>
+Not a Monster is a concept story about a a character named Victhor Von Frankenstein,
+which we can call Stein, he lives in a gothic like world fusing a lot of popular ideas
+from the past and from the present about sci-fi an fantasy storytelling.
+</p>
+
+<br>
+
+<p>
+In this Gothic but colorful world, Stein suffered an accident and now he has lost
+his memmory, in order to regain his memories he has to investigate a strange castle in which
+he will encounter a lot of mysteries
+</p>
+
+<br>
+
+<p>
+Stein adventure is about having a lot of fun, drama and exagerated things!
+</p>
+
+</div>
+
+<h2 class="project-section reveal">Design Exploration</h2>
+
+<div class="project-image reveal">
+
+  <div class="itemart-1">
+    <img src="../images/notamonster4.jpg" alt="Morga design process" loading="lazy">
+  </div>
+
+  <div class="itemart-2">
+    <img src="../images/notamonster3.jpg" alt="Morga design process" loading="lazy">
+  </div>
+
+  <div class="itemart-3">
+    <img src="../images/notamonster1.jpg" alt="Morga design process" loading="lazy">
+  </div>
+
+  <div class="itemart-4">
+    <img src="../images/notamonster2.jpg" alt="Morga design process" loading="lazy">
+  </div>
+
+</div>
+
+<h2 class="project-section reveal">Character Design</h2>
+
+<div class="project-image-2 reveal">
+
+<div class="itemart-5">
+<img src="../images/stein.jpg" alt="Morga color exploration" loading="lazy">
+</div>
+
+<div class="itemart-6">
+<img src="../images/draculinda.jpg" alt="Morga color exploration" loading="lazy">
+</div>
+
+<div class="itemart-7">
+<img src="../images/v1.jpg" alt="Morga color exploration" loading="lazy">
+</div>
+
+</div>
+
+<div class="character-info">
+  <div class="character-info-1">
+    <div class="characterpic1"></div>
+      <div class="character-info-text">
+        <h2 class="reveal">Stein</h2>
+          <p>
+            Stein is our main protagonist, this is why a lot of the concept art centers around him.
+            He is very dramatic and exagerated, he tries to always look cool and serious but
+            ends up making fun of himself while doing so but he doesn't care about that either,
+            even if he doesn't remember that much about anything his personality is pretty much
+            the same.
+          </p>
+      </div>
+  </div>
+
+   <div class="character-info-1">
+    <div class="characterpic2"></div>
+      <div class="character-info-text">
+        <h2 class="reveal">Draculinda</h2>
+          <p>
+            In the story we are not
+            suposed to know much about her until the very end, but the plot twist is that she is 
+            Stein's wife!
+            Draculinda presents herself as a mysterious character, reserved and acting with class but we
+            have to remember that in this world she is the
+            equivalent to Dracula the king of vampires, so she is basically
+            a force of nature too (yes, Stein got himself a baddie!)
+          </p>
+      </div>
+  </div> 
+
+    <div class="character-info-1">
+    <div class="characterpic3"></div>
+      <div class="character-info-text">
+        <h2 class="reveal">V1</h2>
+          <p>
+            V1, as you can see; is a robot that has a LOT of similarities with Stein, that's 
+            because he in fact, has Stein memories (if that makes sense...)
+            Even if he has Stein memories, he develops a personality based on Stein intelligence
+            (which isn't that bright to begin with) this ends up making
+            him more stoic and serious, but also makes him unhinged, his goal is
+            to help Stein recover his lost memory.
+          </p>
+      </div>
+  </div>
+
+</div>
+
+
+
+
+<h2 class="project-section reveal">Character Sheet</h2>
+
+<div class="project-image-4 reveal">
+
+<div class="sheet-charac reveal">
+<img src="../images/ronin-sketch1.jpg" alt="Morga character sheet" loading="lazy">
+</div>
+
+<div class="sheet-charac reveal">
+<img src="../images/ronin-expressions.jpg" alt="Morga character sheet" loading="lazy">
+</div>
+
+<div class="sheet-charac reveal">
+<img src="../images/ronin-variations.jpg" alt="Morga character sheet" loading="lazy">
+</div>
+
+</div>
+
+<div class="project-image-4 reveal">
+
+<div class="project-image reveal">
+<img src="../images/steincharacsheet.jpg" alt="Morga character sheet" loading="lazy">
+</div>
+
+</div>
+
+<script>
+const reveals = document.querySelectorAll('.reveal');
+
+function revealOnScroll(){
+  const windowHeight = window.innerHeight;
+
+  reveals.forEach(section => {
+    const sectionTop = section.getBoundingClientRect().top;
+
+    if(sectionTop < windowHeight - 100){
+      section.classList.add('visible');
+    }
+  });
+}
+
+window.addEventListener('scroll', revealOnScroll);
+revealOnScroll();
+</script>
+
+
+</body>
+</html>
