@@ -347,7 +347,7 @@ height:auto;
 }
 
 .characterpic1{
-  background-image: url('/images/steinprofile.jpg');
+  background-image: url('../images/steinprofile.jpg');
   background-position: center;
   background-size: 100%;
   background-repeat: no-repeat;
@@ -355,7 +355,7 @@ height:auto;
 }
 
 .characterpic2{
-  background-image: url('/images/draculindaprofile.jpg');
+  background-image: url('../images/draculindaprofile.jpg');
   background-position: center;
   background-size: 100%;
   background-repeat: no-repeat;
@@ -363,7 +363,7 @@ height:auto;
 }
 
 .characterpic3{
-  background-image: url('/images/v1profile.jpg');
+  background-image: url('../images/v1profile.jpg');
   background-position: center;
   background-size: 100%;
   background-repeat: no-repeat;
@@ -601,19 +601,19 @@ right:-60px;
   .characterpic1{
   width: 125%;
   background-size: 200%;
-  background-image: url('/images/steinprofile2.jpg');
+  background-image: url('../images/steinprofile2.jpg');
 }
 
 .characterpic2{
   width: 135%;
   background-size: 200%;
-  background-image: url('/images/draculindaprofile2.jpg');
+  background-image: url('../images/draculindaprofile2.jpg');
 }
 
 .characterpic3{
   width: 140%;
   background-size: 200%;
-  background-image: url('/images/v1profile2.jpg');
+  background-image: url('../images/v1profile2.jpg');
 }
 
     .grid{
@@ -662,19 +662,19 @@ right:8px;
 .characterpic1{
   width: 190%;
   background-size: 600%;
-  background-image: url('/images/steinprofile2.jpg');
+  background-image: url('../images/steinprofile2.jpg');
 }
 
 .characterpic2{
   width: 210%;
   background-size: 600%;
-  background-image: url('/images/draculindaprofile2.jpg');
+  background-image: url('../images/draculindaprofile2.jpg');
 }
 
 .characterpic3{
   width: 210%;
   background-size: 600%;
-  background-image: url('/images/v1profile2.jpg');
+  background-image: url('../images/v1profile2.jpg');
 }
 
 
